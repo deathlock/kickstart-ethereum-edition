@@ -1,0 +1,26 @@
+{
+  "name": "kickstart-ethereum-edition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitraval/kickstart-ethereum-edition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitraval/kickstart-ethereum-edition/issues"
+  },
+  "homepage": "https://github.com/smitraval/kickstart-ethereum-edition#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "ganache-cli": "^6.1.8",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.24",
+    "web3": "^1.0.0-beta.27"
+  }
+}
