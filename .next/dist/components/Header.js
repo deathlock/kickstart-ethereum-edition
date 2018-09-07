@@ -10,6 +10,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _semanticUiReact = require('semantic-ui-react');
 
+var _routes = require('../routes');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = '/Users/smit/smit/kickstart-ethereum-edition/components/Header.js';
@@ -17,27 +19,36 @@ var _jsxFileName = '/Users/smit/smit/kickstart-ethereum-edition/components/Heade
 exports.default = function () {
   return _react2.default.createElement(_semanticUiReact.Menu, { style: { marginTop: '10px' }, __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, _react2.default.createElement(_semanticUiReact.Menu.Item, {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, 'CrowdCoin'), _react2.default.createElement(_semanticUiReact.Menu.Menu, { position: 'right', __source: {
+  }, _react2.default.createElement(_routes.Link, { route: '/', __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 8
     }
-  }, _react2.default.createElement(_semanticUiReact.Menu.Item, {
-    __source: {
+  }, _react2.default.createElement('a', { className: 'item', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, 'CrowdCoin')), _react2.default.createElement(_semanticUiReact.Menu.Menu, { position: 'right', __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     }
-  }, 'Campaigns'), _react2.default.createElement(_semanticUiReact.Menu.Item, {
-    __source: {
+  }, _react2.default.createElement(_routes.Link, { route: '/', __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 13
     }
-  }, '+')));
+  }, _react2.default.createElement('a', { className: 'item', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, 'Campaigns')), _react2.default.createElement(_routes.Link, { route: '/new', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    }
+  }, _react2.default.createElement('a', { className: 'item', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    }
+  }, '+'))));
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvSGVhZGVyLmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiTWVudSIsIm1hcmdpblRvcCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQVMsQUFFVDs7Ozs7O2tCQUFlLFlBQU0sQUFDcEI7eUJBQ0csQUFBQyx1Q0FBSyxPQUFPLEVBQUUsV0FBZixBQUFhLEFBQWE7Z0JBQTFCO2tCQUFBLEFBQ0k7QUFESjtHQUFBLGtCQUNLLGNBQUQsc0JBQUEsQUFBTTs7Z0JBQU47a0JBQUE7QUFBQTtBQUFBLEtBREosQUFDSSxBQUlBLDhCQUFDLGNBQUQsc0JBQUEsQUFBTSxRQUFLLFVBQVgsQUFBb0I7Z0JBQXBCO2tCQUFBLEFBQ0U7QUFERjtxQkFDRyxjQUFELHNCQUFBLEFBQU07O2dCQUFOO2tCQUFBO0FBQUE7QUFBQSxLQURGLEFBQ0UsQUFJQSw4QkFBQyxjQUFELHNCQUFBLEFBQU07O2dCQUFOO2tCQUFBO0FBQUE7QUFBQSxLQVhULEFBQ0csQUFLSSxBQUtFLEFBTVQ7QUFsQkQiLCJmaWxlIjoiSGVhZGVyLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9zbWl0L3NtaXQva2lja3N0YXJ0LWV0aGVyZXVtLWVkaXRpb24ifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvSGVhZGVyLmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiTWVudSIsIkxpbmsiLCJtYXJnaW5Ub3AiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLEFBQU87Ozs7QUFDUCxBQUFTOztBQUNULEFBQVMsQUFBWSxBQUVyQjs7Ozs7O2tCQUFlLFlBQU0sQUFDcEI7eUJBQ0csQUFBQyx1Q0FBSyxPQUFPLEVBQUUsV0FBZixBQUFhLEFBQWE7Z0JBQTFCO2tCQUFBLEFBQ0k7QUFESjtHQUFBLGtCQUNJLEFBQUMsOEJBQUssT0FBTixBQUFZO2dCQUFaO2tCQUFBLEFBQ0U7QUFERjtxQkFDRSxjQUFBLE9BQUcsV0FBSCxBQUFhO2dCQUFiO2tCQUFBO0FBQUE7S0FGTixBQUNJLEFBQ0UsQUFHRiwrQkFBQyxjQUFELHNCQUFBLEFBQU0sUUFBSyxVQUFYLEFBQW9CO2dCQUFwQjtrQkFBQSxBQUNFO0FBREY7cUJBQ0UsQUFBQyw4QkFBSyxPQUFOLEFBQVk7Z0JBQVo7a0JBQUEsQUFDQTtBQURBO3FCQUNBLGNBQUEsT0FBRyxXQUFILEFBQWE7Z0JBQWI7a0JBQUE7QUFBQTtLQUZGLEFBQ0UsQUFDQSxBQUdBLCtCQUFBLEFBQUMsOEJBQUssT0FBTixBQUFZO2dCQUFaO2tCQUFBLEFBQ0E7QUFEQTtxQkFDQSxjQUFBLE9BQUcsV0FBSCxBQUFhO2dCQUFiO2tCQUFBO0FBQUE7S0FaVCxBQUNHLEFBS0ksQUFLRSxBQUNBLEFBS1Q7QUFsQkQiLCJmaWxlIjoiSGVhZGVyLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9zbWl0L3NtaXQva2lja3N0YXJ0LWV0aGVyZXVtLWVkaXRpb24ifQ==
